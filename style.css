@@ -1,0 +1,42 @@
+body {
+  /* background: #000; */
+  margin: 0;
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+::-moz-selection { /* Code for Firefox */
+  background: #aaa;
+}
+
+::selection {
+  background: #aaa;
+}
+
+canvas {
+  position: fixed;
+}
+
+input {
+  border: none;
+  background: rgba(0,0,0,0.1);
+  text-align: center;
+  font-family: 'Source Sans Pro';
+  font-size: 24px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.lastNumber {
+  position: fixed;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  width: 50px;
+}
